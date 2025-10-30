@@ -31,7 +31,7 @@ Essential for anyone starting their SQL journey or wanting to solidify their und
   - Temporary tables and their uses
 
 ### 🎯 Practice Activities:
-1. Creating a sample database for a bookstore
+1. Creating a sample database for users
 2. Designing and implementing basic table structures
 3. Understanding and applying various data types
 4. Working with primary keys and constraints
