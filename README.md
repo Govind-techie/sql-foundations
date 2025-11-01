@@ -38,15 +38,111 @@ Essential for anyone starting their SQL journey or wanting to solidify their und
 
 ---
 
-📌 **Next Steps in SQL Journey:**
-- SQL-2: Data Manipulation & Basic Queries
-- SQL-3: Filtering & Sorting Data
-- SQL-4: Joins & Relationships
-- SQL-5: Aggregate Functions & Grouping
-- SQL-6: Subqueries & Views
-- SQL-7: Database Design & Normalization
-- SQL-8: Indexes & Performance Optimization
-- SQL-9: Stored Procedures & Functions
-- SQL-10: Transactions & Concurrency
+## 📘 SQL-2: Data Filtering & Advanced Queries
 
-*This repository will grow as I continue my SQL learning journey. Stay tuned for more sections covering advanced SQL concepts and database management techniques!*
+This section focuses on **filtering data and creating advanced queries** — covering essential SQL clauses and functions for data manipulation and analysis.
+Essential for extracting specific data and performing data analysis using SQL.
+
+### ✅ Topics Covered:
+- **WHERE Clause**
+  - Understanding filtering conditions
+  - Comparison operators (`=`, `<>`, `>`, `<`, `>=`, `<=`)
+  - Logical operators (`AND`, `OR`, `NOT`)
+  - Pattern matching with `LIKE` and wildcards
+  - `IN` and `BETWEEN` operators
+
+- **Sorting and Limiting Results**
+  - Sorting data using `ORDER BY`
+  - Ascending and descending order
+  - Sorting by multiple columns
+  - Limiting results with `LIMIT` clause
+  - Using `OFFSET` for pagination
+
+- **Aggregate Functions**
+  - Using `COUNT()` for row counting
+  - Calculating sums with `SUM()`
+  - Finding averages with `AVG()`
+  - Getting minimum and maximum values (`MIN()`, `MAX()`)
+  - Understanding `NULL` handling in aggregates
+
+- **Grouping and Having**
+  - Grouping data with `GROUP BY`
+  - Filtering groups using `HAVING`
+  - Combining `WHERE` and `HAVING`
+  - Complex grouping scenarios
+  - Common grouping pitfalls
+
+- **Advanced Table Operations**
+  - Table aliases and their uses
+  - Working with derived tables
+  - Common table expressions (CTEs)
+  - Understanding query execution order
+
+### 🎯 Practice Activities:
+1. Writing complex filtering conditions
+2. Implementing sorting and pagination
+3. Creating aggregate reports
+4. Building grouped summaries with filters
+
+---
+
+## 📘 SQL-3: Building a Full-Stack Application with SQL
+
+This section demonstrates **practical SQL implementation in a full-stack environment** — focusing on integrating SQL with Node.js and building a complete web application.
+Essential for understanding how SQL fits into modern web development workflows.
+
+### ✅ Topics Covered:
+- **Application Setup**
+  - Node.js and Express configuration
+  - Database connection setup
+  - Project structure organization
+  - Environment configuration
+
+- **Database Schema**
+  - Designing application schemas
+  - Creating tables and relationships
+  - Setting up foreign keys
+  - Managing data constraints
+
+- **View Templates**
+  - Implementing EJS templates
+  - Creating dynamic views
+  - Form handling and validation
+  - User interface design
+
+- **CRUD Operations**
+  - Creating new records
+  - Reading and displaying data
+  - Updating existing records
+  - Deleting data safely
+  - Error handling and validation
+
+### 🎯 Practice Activities:
+1. Setting up a Node.js/Express application
+2. Implementing database operations
+3. Creating dynamic view templates
+4. Building a complete user management system
+
+---
+
+📌 **Journey Complete!** This repository covers the essential SQL concepts needed for full-stack web development:
+
+- **SQL-1:** Core SQL fundamentals and database basics
+- **SQL-2:** Data filtering, aggregation, and advanced queries
+- **SQL-3:** Practical full-stack implementation
+
+While this repository doesn't dive into advanced database concepts like optimization, stored procedures, or complex transactions, it provides a solid foundation for:
+- Building full-stack web applications
+- Implementing CRUD operations
+- Managing user data
+- Integrating databases with Node.js
+
+🎯 **Next Steps for Full-Stack Development:**
+- NoSQL databases (MongoDB)
+- API development
+- Authentication & Authorization
+- Cloud deployment
+- Testing and security
+- Performance optimization
+
+*Thank you for following this practical SQL learning journey — an essential step towards full-stack web development!*
